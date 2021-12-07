@@ -1,7 +1,7 @@
 # Site settings
 title: G-Türk İHA
 email: gturkiha@gmail.com
-url: https://example.github.io
+url: https://www.gturkiha.com
 description: "_____"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -10,16 +10,10 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: gturkiha.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
- # - title: twitter
- #   url: https://twitter.com/
- # - title: facebook
- #   url:
- # - title: stack-overflow
- #   url: http://stackoverflow.com/questions/tagged/jekyll
   - title: instagram
     url: https://www.instagram.com/gturkiha/
   - title: linkedin
