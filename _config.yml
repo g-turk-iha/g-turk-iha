@@ -8,7 +8,7 @@ description: "“İstikbal göklerdedir. Göklerini koruyamayan uluslar, yarınl
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#fafafa'
 
 # Footer settings
 footer: gturkiha.com
