@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: rgb(15, 92, 102);
 }
 
 .navbar-custom .nav li.active {
@@ -137,7 +137,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: rgb(31, 71, 202);
+    color: rgb(0, 0, 0);
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
@@ -179,10 +179,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(253, 174, 27);
     border-radius: 35px;
     font-size: 40px;
-    color: rgb(50, 158, 185);
+    color: rgb(253, 174, 27);
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
