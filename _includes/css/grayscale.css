@@ -35,12 +35,6 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
-xb {
-    color: black;
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-}
 
 @media(min-width:767px) {
     p {
