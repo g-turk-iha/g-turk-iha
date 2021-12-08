@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: rgb(15, 92, 102);
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -182,7 +182,7 @@ a:focus {
     border: 2px solid #fff;
     border-radius: 35px;
     font-size: 40px;
-    color: rgb(32, 12, 122);
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -192,7 +192,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: rgb(30, 10, 209);
     background: rgba(255,255,255,.1);
 }
 
