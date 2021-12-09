@@ -139,7 +139,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: rgb(0, 0, 0);
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/intro-bg.avif) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,7 +258,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-shadow: black;
-    background: url(/img/team-bg.jpg) no-repeat center center scroll;
+    background: url(/img/team-bg.avif) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
