@@ -19,18 +19,22 @@ html {
 @font-face{
     font-family: "Roboto-regular";
     src: url(/font/Roboto-Regular.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: "Anton";
     src: url(/font/Anton-Regular.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: "Source-sans-pro-lightitalic";
     src: url(/font/SourceSansPro-LightItalic.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: "Source-code-pro-regular";
     src: url(/font/SourceCodePro-Regular.ttf);
+    font-display: swap;
 }
 
 h1,
