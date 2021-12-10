@@ -24,6 +24,14 @@ html {
     font-family: "Anton";
     src: url(/font/Anton-Regular.ttf);
 }
+@font-face{
+    font-family: "Source-sans-pro-lightitalic";
+    src: url(font\SourceSansPro-LightItalic.ttf);
+}
+@font-face{
+    font-family: "Source-code-pro-regular";
+    src: url(font\SourceCodePro-Regular.ttf);
+}
 
 h1,
 h2,
@@ -33,7 +41,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source-code-pro-regular";
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -44,8 +52,14 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
-p.team {
+.namefont {
     font-family: "Anton";
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.lightfont {
+    font-family: "Source-sans-pro-lightitalic";
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -60,7 +74,6 @@ p.team {
 }
 
 a {
-    font: italic;
     color: {{ site.color.links }};
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -177,7 +190,7 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:767px) {
+@media(min-width:750px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -190,6 +203,36 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+.pic{
+    float:left;
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.pic>img{
+    height: 150px;
+    width: 400px;
+    
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.pic>img:hover{
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);             
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg)
 }
 
 .btn-circle {
@@ -305,8 +348,7 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source-code-pro-regular";
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -321,10 +363,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #e41a1a ;
+    border: 1px solid #f1e14d ;
     outline: 0;
     color: #f7f6f1 ;
-    background-color: #000000 ;
+    background-color: #444747 ;
 }
 
 ul.banner-social-buttons {
