@@ -26,11 +26,11 @@ html {
 }
 @font-face{
     font-family: "Source-sans-pro-lightitalic";
-    src: url(font\SourceSansPro-LightItalic.ttf);
+    src: url(/font/SourceSansPro-LightItalic.ttf);
 }
 @font-face{
     font-family: "Source-code-pro-regular";
-    src: url(font\SourceCodePro-Regular.ttf);
+    src: url(/font/SourceCodePro-Regular.ttf);
 }
 
 h1,
@@ -60,6 +60,7 @@ p {
 }
 .lightfont {
     font-family: "Source-sans-pro-lightitalic";
+    font-style: italic;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
