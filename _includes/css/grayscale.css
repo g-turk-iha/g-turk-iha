@@ -20,6 +20,10 @@ html {
     font-family: "Roboto-regular";
     src: url(/font/Roboto-Regular.ttf);
 }
+@font-face{
+    font-family: "Anton";
+    src: url(/font/Anton-Regular.ttf);
+}
 
 h1,
 h2,
@@ -36,6 +40,12 @@ h6 {
 
 p {
     font-family: "Roboto-regular";
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+p.team {
+    font-family: "Anton";
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
