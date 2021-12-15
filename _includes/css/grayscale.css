@@ -145,6 +145,7 @@ a:focus {
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
+li {list-style-position: inside;}
 
 @media(min-width:767px) {
     .navbar {
