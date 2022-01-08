@@ -20,7 +20,7 @@ html {
   max-width: 100%;
   height: auto;
 }
-.rightToLeft {
+#rightToLeft {
             -moz-animation-duration: 3s;
             -webkit-animation-duration: 3s;
             -moz-animation-name: slidein;
