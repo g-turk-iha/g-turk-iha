@@ -21,8 +21,8 @@ html {
   height: auto;
 }
 #rightToLeft {
-            -moz-animation-duration: 6s;
-            -webkit-animation-duration: 6s;
+            -moz-animation-duration: 4s;
+            -webkit-animation-duration: 4s;
             -moz-animation-name: slidein;
             -webkit-animation-name: slidein;
          }
