@@ -21,15 +21,15 @@ html {
   height: auto;
 }
 #rightToLeft {
-            -moz-animation-duration: 3s;
-            -webkit-animation-duration: 3s;
+            -moz-animation-duration: 4s;
+            -webkit-animation-duration: 4s;
             -moz-animation-name: slidein;
             -webkit-animation-name: slidein;
          }
          @-moz-keyframes slidein {
             from {
                margin-left:100%;
-               width:300%
+               width:150%
             }
             to {
                margin-left:30%;
@@ -39,7 +39,7 @@ html {
          @-webkit-keyframes slidein {
             from {
                margin-left:100%;
-               width:300%
+               width:150%
             }
             to {
                margin-left:30%;
