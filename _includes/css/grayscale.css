@@ -320,6 +320,9 @@ li {list-style-position: inside;}
 .content-section {
     padding-top: 140px;
 }
+.news-section{
+    background-color: rgba(0, 0, 0, 0.76);
+}
 
 .team-section {
     width: 100%;
