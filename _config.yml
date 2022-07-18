@@ -19,6 +19,8 @@ social:
     url: https://www.instagram.com/gturkiha/
   - title: linkedin
     url: https://www.linkedin.com/company/g-turk-i%CC%87ha
+  - title: youtube
+    url: https://www.youtube.com/channel/UC1LD4CbryaYLpeAlETrts9g
 
 # Build settings
 markdown: kramdown
